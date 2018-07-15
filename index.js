@@ -58,7 +58,7 @@ handlers.notFound = function (data, callback) {
 // define a request router
 const router = {
     'ping': handlers.ping,
-    'helloworld': handlers.helloWorld
+    'hello': handlers.helloWorld
 }
 
 const unifiedRouter = function(req, res) {
